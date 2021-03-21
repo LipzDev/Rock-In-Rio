@@ -133,6 +133,7 @@
   
     background: $cor-2;
     border-radius: 5px;
+
   }
 }
 
@@ -237,6 +238,200 @@
     margin-left: 15px;
   }
 }
+
+// MODAL
+
+.container{
+  max-width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.modal{
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  background: rgba(0, 0, 0, 0.568);
+  width: 100%;
+  height: 100vh;  
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // visibility: hidden;
+  // opacity: 0;
+  // transition: 0.5s;
+
+  &.ativo{
+    visibility: visible;
+    opacity: 1;
+  }
+}
+
+.box--white{
+  min-width: 800px;
+  // 40%
+  height: 45rem;
+  background: $cor-4;
+  border-radius: 20px;
+  position: relative;
+
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+
+  .close--button{
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    background: $cor-2;
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 5px;
+    color: white;
+    cursor: pointer;
+    z-index: 999;
+  }
+}
+
+.modal--img {
+  background-image: url(../img/queen.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-top-left-radius: 20px;
+}
+
+.section--comprar{
+  position: relative;
+
+  img{
+    width: 60%;
+    margin: 40px 0 0 0;
+  }
+
+  h1{
+    font-size: 2.0em;
+    margin: 40px 0;
+  }
+
+  .local img{
+    width: 20px;
+    margin: 0;
+    margin-right: 10px;
+  }
+
+  .date{
+    display: flex;
+    justify-content: space-around;
+
+    max-width: 60%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+    span{
+      display: flex;
+      align-items: center;
+      font-size: $font-4;
+      font-weight: 500;
+    }
+  }
+
+  #city{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+  }
+
+  // BUTTON
+
+  .button{
+    margin: 50px 0 20px 0;
+
+    button{
+      width: 110px;
+      height: 45px;
+      color: $cor-2;
+      font-weight: bold;
+      border: 2px solid $cor-2;
+      border-radius: 5px;
+      background: transparent;
+      letter-spacing: 2px;
+      margin-right: 50px;
+      cursor: pointer;
+    }
+
+    #inteira{
+      background-color: $cor-2;
+      color: $cor-4;
+      margin-right: 0;
+    }
+  }
+
+  // PRICE
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.finalizar{
+  button{      
+    width: 100%;
+    font-size: $font-2;
+    border: 0;
+    font-weight: bold;  
+    letter-spacing: 2px;
+    background: #00923A;
+    cursor: pointer;
+    color: $cor-4;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 12px 0;
+    border-bottom-right-radius: 20px;
+  }
+}
+}
+
+
 
 /* RESPONSIVO */
 
