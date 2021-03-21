@@ -16,6 +16,137 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+
+  .container{
+    max-width: 80%;
+
+    display: flex; 
+    height: 100vh; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+    h1{
+      color: $cor-4;
+      font-weight: bold;
+      font-size: $font-0;
+      font-family: 'Rokkitt', serif;
+      text-align: center;
+    }
+
+    img{
+      max-width: 336px;
+    }
+
+    h2{
+      color: $cor-4;
+      font-weight: bold;
+      font-size: $font-0;
+      font-family: 'Rokkitt', serif;
+      text-align: center;
+    }
+  }
+}
+
+// PAINEL DE LOGIN
+
+.painel--login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h3{
+    text-align: center;
+    font-size: $font-0;
+    font-weight: 500;
+    margin: 50px 0 30px 0;
+  }
+}
+
+.formulario{
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  label{
+    display: flex;
+    flex-direction: column;
+    color: $cor-2;
+    font-size: $font-2;
+    font-weight: bold;
+    position: relative;
+
+    img{
+      width: 20px;
+      position: absolute;
+      bottom: 15px;
+      left: 10px;
+    }
+  }
+
+  label+label{
+    margin-top: 20px;
+  }
+
+  // INPUT
+
+  input[type="email"],input[type="password"]{
+    padding: 20px 10px 15px 50px;
+    width: 500px;
+    border: 0;
+    background: $cor-3;
+    border-radius: 5px;   
+    margin-top: 15px; 
+  }
+
+  // CHECKBOX
+
+  .checkbox{
+    display: flex;    
+    align-items: center;    
+    flex-direction: row;
+    margin: 10px 0 40px 0;
+
+    span{
+      margin-left: 10px;
+      font-size: $font-7;
+      font-weight: 500;
+    }
+  }
+
+  // BUTTON
+
+  button{
+    @include button;
+  }
+
+  #cadastro{
+    @include button;
+    background: $cor-1;
+  }
+
+  // CHANGE PASSWORD
+
+  .changePassword{
+    text-align: right;
+    margin: 20px 0 60px 0;
+    font-weight: 500;
+
+    a{
+      color: $cor-2;
+      text-decoration: underline;
+    }
+  }
+
+  h4{
+    text-align: center;
+    color: $cor-2;
+    font-weight: 500;
+    margin: 10px 0;
+  }
+
 }
 
 
