@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+a,h1,h2,h3,p,span{
+  color: #4D4D4D;
+}
+
+.container{
+  max-width: 1000px;
+  width: 95%;
+  margin: 0 auto;
+}

@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "AGEA,OAAO,CAAC,sGAAI,CFFZ,AAAA,CAAC,AAAA,CACC,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,OAAO,CAAE,IAAI,CACb,UAAU,CAAE,IAAI,CAChB,eAAe,CAAE,IAAI,CACrB,UAAU,CAAE,UAAU,CACvB,AAED,AAAA,CAAC,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,IAAI,AAAA,CACf,KAAK,CAAE,OAAO,CACf,AAED,AAAA,UAAU,AAAA,CACR,SAAS,CAAE,MAAM,CACjB,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,MAAM,CACf,AEbD,AAAA,IAAI,AAAC,CACH,WAAW,CAAE,oBAAoB,CAClC,AHCD,AAAA,MAAM,AAAA,CACJ,OAAO,CAAE,IAAI,CACb,qBAAqB,CAAE,OAAO,CAC/B,AAED,AAAA,WAAW,AAAA,CACT,gBAAgB,CAAE,8BAA8B,CAChD,MAAM,CAAE,KAAK,CACb,mBAAmB,CAAE,MAAM,CAC3B,eAAe,CAAE,KAAK,CACtB,iBAAiB,CAAE,SAAS,CAC7B",
+    "sources": [
+        "../sass/index.scss",
+        "../sass/_reset.scss",
+        "../sass/_colors.scss",
+        "../sass/_font.scss",
+        "../sass/_mixins.scss",
+        "../sass/_responsivoIndex.scss"
+    ],
+    "names": [],
+    "file": "index.css"
+}

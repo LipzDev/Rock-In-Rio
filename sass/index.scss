@@ -1,0 +1,25 @@
+@import 'reset';
+@import 'colors';
+@import 'font';
+@import 'mixins';
+
+// ESTILOS DO SITE
+
+.login{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.img--login{
+  background-image: url(../img/login/guitarbg.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+/* RESPONSIVO */
+
+@import 'responsivoIndex';
