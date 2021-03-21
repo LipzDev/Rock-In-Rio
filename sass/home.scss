@@ -3,13 +3,13 @@
 @import 'font';
 @import 'mixins';
 
+
 // ESTILOS DO SITE
 
 .header{
   background: $cor-1;
   padding: 16px 0;
   width: 100%;
-
   
   text-align: center;
   position: relative;
@@ -242,9 +242,7 @@
 // MODAL
 
 .container{
-  max-width: 90%;
   text-align: center;
-  margin: 0 auto;
 }
 
 .modal{
@@ -378,60 +376,85 @@
 
   // PRICE
 
-  
+  .price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
 
+    span{
+      font-size: 2.0em;
+      font-weight: bold;
+    }
 
+    p{
+      margin: 0 15px;
+      font-size: $font-mobile;
+      
+    }
 
+    input[type="number"]{
+      margin: 0 10px;
+      max-width: 40px;
+      text-align: center;
+    }
 
+    button{
+      width: 20px;
+      height: 25px;
+      border-radius: 3px;
+      background: $cor-2;
+      border: 0;
+      color: $cor-4;
+      cursor: pointer;
+    }
+  }
 
+  // CARRINHO
 
+  .carrinho{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    button{      
+      width: 80%;
+      color: $cor-4;
+      font-size: $font-4;
+      height: 40px;
+      font-weight: bold;
+      background: $cor-2;
+      border-radius: 5px;
+      border: 0;
+      margin-bottom: 25px;
+      cursor: pointer;
+    }
+    
+    #btn--shop{
+      background: #4C4C4C;
+    }
+  }
 
 .finalizar{
-  button{      
-    width: 100%;
-    font-size: $font-2;
-    border: 0;
-    font-weight: bold;  
-    letter-spacing: 2px;
-    background: #00923A;
-    cursor: pointer;
-    color: $cor-4;
+    button{      
+      width: 100%;
+      font-size: $font-2;
+      border: 0;
+      font-weight: bold;  
+      letter-spacing: 2px;
+      background: #00923A;
+      cursor: pointer;
+      color: $cor-4;
 
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding: 12px 0;
-    border-bottom-right-radius: 20px;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 12px 0;
+      border-bottom-right-radius: 20px;
+    }
   }
 }
-}
-
-
 
 /* RESPONSIVO */
 
