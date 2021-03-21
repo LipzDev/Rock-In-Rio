@@ -1,0 +1,112 @@
+// RESPONSIVO DE ALTURA NAS TELAS DESKTOP
+
+@media screen and (max-height: 900px){
+  .img--login{   
+    .container{   
+      h1{
+        font-size: 2.5em;
+      }
+
+      h2{
+        font-size: 2.5em;
+      }
+    }
+  }
+
+  // PAINEL DE LOGIN
+
+  .painel--login{  
+    h3{    
+      font-size: 2.0em; 
+      margin: 5% 0 3%  0;
+    }
+
+    img{
+      max-width: 30%;
+    }
+  }
+
+  .formulario{
+
+
+
+    .changePassword{
+      margin: 20px 0 4% 0;  
+    } 
+  }
+
+}
+
+// TABLET
+
+@media screen and (max-width: 1024px){
+  .login{
+    grid-template-columns: 1fr;
+  }
+
+  // PAINEL DE LOGIN
+
+  .painel--login{
+    margin-top: 50px;
+  }
+
+  .formulario{
+    margin-bottom: 50px;
+  }
+
+}
+
+// CELULAR
+
+@media screen and (max-width: 500px){
+  .img--login{   
+    .container{   
+      h1{
+        font-size: $font-2;
+      }
+
+      img{
+        max-width: 70%;
+      }
+
+      h2{
+        font-size: $font-2;
+      }
+    }
+  }
+
+  // PAINEL DE LOGIN
+
+  .painel--login{  
+    h3{    
+      font-size: $font-2; 
+    }
+
+    img{
+      max-width: 60%;
+    }
+  }
+
+  // FORMULARIO
+
+  .formulario{
+    width: 90%;
+
+    label{
+      font-size: $font-4;
+    }
+
+    label+label{
+      margin-top: 15px;
+    }
+
+    input[type="email"],input[type="password"]{
+      margin-top: 3px;
+    }
+
+    .changePassword{
+      margin: 20px 0 12% 0;
+    }
+  }
+}
+
