@@ -122,6 +122,10 @@
 
   button{
     @include button;
+
+    a{
+      color: white;
+    }
   }
 
   #cadastro{

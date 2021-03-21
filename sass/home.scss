@@ -10,9 +10,20 @@
   padding: 16px 0;
   width: 100%;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  
+  text-align: center;
+  position: relative;
+
+  a{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    position: absolute;
+    top: 40%;
+    color: $cor-4;
+    font-size: 20px;
+  }
 }
 
 /* SECTION SEARCH */

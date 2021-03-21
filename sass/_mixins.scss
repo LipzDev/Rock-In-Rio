@@ -1,11 +1,16 @@
 @mixin button {
   width: 100%;
-  padding: 12px;
   font-size: $font-2;
   border: 0;
-  font-weight: bold;
-  color: white;
+  font-weight: bold;  
   letter-spacing: 2px;
   background: #E41F27;
   border-radius: 5px;
+  cursor: pointer;
+
+  a{
+    color: white;
+    display: block;
+    padding: 12px;
+  }
 }
