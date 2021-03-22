@@ -258,9 +258,9 @@
   align-items: center;
   justify-content: center;
 
-  // visibility: hidden;
-  // opacity: 0;
-  // transition: 0.5s;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.5s;
 
   &.ativo{
     visibility: visible;

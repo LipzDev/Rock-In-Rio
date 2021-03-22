@@ -109,12 +109,22 @@
         margin-right: 30px;
       }   
     }
+
+    .price{
+      span{
+        font-size: $font-3!important;
+      }
+    } 
+  
   }
 
   .modal--img {
     display: none;
   }
 
+  // PRICE
+
+  
   // CARRINHO
 
   .carrinho{
