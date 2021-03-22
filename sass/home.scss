@@ -269,8 +269,7 @@
 }
 
 .box--white{
-  min-width: 800px;
-  // 40%
+  min-width: 40%;
   height: 45rem;
   background: $cor-4;
   border-radius: 20px;
@@ -311,13 +310,13 @@
   position: relative;
 
   img{
-    width: 60%;
+    width: 55%;
     margin: 40px 0 0 0;
   }
 
   h1{
     font-size: 2.0em;
-    margin: 40px 0;
+    margin: 30px 0 60px 0;
   }
 
   .local img{
@@ -352,7 +351,7 @@
   // BUTTON
 
   .button{
-    margin: 50px 0 20px 0;
+    margin: 30px 0 20px 0;
 
     button{
       width: 110px;
@@ -361,9 +360,10 @@
       font-weight: bold;
       border: 2px solid $cor-2;
       border-radius: 5px;
+      font-size: 1.0em;
       background: transparent;
       letter-spacing: 2px;
-      margin-right: 50px;
+      margin-right: 40px;
       cursor: pointer;
     }
 
@@ -383,8 +383,8 @@
     margin: 30px 0;
 
     span{
-      font-size: 2.0em;
-      font-weight: bold;
+      font-size: 1.8em;
+      font-weight: 600;
     }
 
     p{
@@ -427,7 +427,7 @@
       background: $cor-2;
       border-radius: 5px;
       border: 0;
-      margin-bottom: 25px;
+      margin-bottom: 20px;
       cursor: pointer;
     }
     
@@ -450,7 +450,7 @@
       position: absolute;
       bottom: 0;
       right: 0;
-      padding: 12px 0;
+      padding: 14px 0;
       border-bottom-right-radius: 20px;
     }
   }

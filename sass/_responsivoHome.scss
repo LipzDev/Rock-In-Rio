@@ -85,4 +85,66 @@
       padding: 10px 0;
     }
   }
+
+  // MODAL
+
+  .box--white{
+    display: grid;
+    height: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .section--comprar{
+
+    h1{
+      font-size: 1.7em!important;
+      margin: 30px 0;
+    }
+      
+    // BUTTON
+    .button{
+      button{
+        height: 35px;
+        font-size: 0.9em;
+        margin-right: 30px;
+      }   
+    }
+  }
+
+  .modal--img {
+    display: none;
+  }
+
+  // CARRINHO
+
+  .carrinho{
+    #btn--shop{
+      margin-bottom: 80px;
+    }
+  }
+
+  // FINALIZAR COMPRA
+
+  .finalizar{
+    button{     
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+  }
+
+}
+
+// ESTILO CELULAR PEQUENO
+
+@media screen and (max-width: 350px){
+  .box--white{
+    width: 90%;
+  }
+
+  .section--comprar{    
+    h1{
+      font-size: 1.4em!important;
+      margin: 10px 0;
+    }
+  }
 }
