@@ -1,7 +1,7 @@
-@import 'reset';
-@import 'colors';
-@import 'font';
-@import 'mixins';
+@import './theme/reset';
+@import './theme/colors';
+@import './theme/font';
+@import './theme/mixins';
 
 // ESTILOS DO SITE
 
@@ -157,4 +157,4 @@
 
 /* RESPONSIVO */
 
-@import 'responsivoIndex';
+@import './responsive/responsivoIndex';
